@@ -1,0 +1,22 @@
+{
+  "name": "soen/http-client",
+  "description": "soen/http-client",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "soen",
+      "email": "soen66@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "psr/http-client": "^1.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Soen\\Http\\Client\\": "src/"
+    }
+  }
+}
